@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3" colorLabel="IBBuiltInLabel-Red">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GEM1917: Group 24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXd-ng-05T" colorLabel="IBBuiltInLabel-Blue">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Ph0-6v-3Fo"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="800" id="dgu-xi-3si"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="oz9-S2-H83"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.72645474137931032" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ph0-6v-3Fo"/>
+                                        <exclude reference="dgu-xi-3si"/>
+                                        <exclude reference="oz9-S2-H83"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="800" height="800"/>
+                                    <mask key="constraints">
+                                        <include reference="Ph0-6v-3Fo"/>
+                                        <include reference="dgu-xi-3si"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MXd-ng-05T" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="189" id="J2F-vV-GxB"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MXd-ng-05T" secondAttribute="bottom" constant="209" id="KfM-FW-Oy4"/>
+                            <constraint firstItem="MXd-ng-05T" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="85" id="S3Y-Km-dZc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MXd-ng-05T" secondAttribute="trailing" constant="85" id="WIF-5w-5qo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MXd-ng-05T" secondAttribute="trailing" constant="85" id="erN-UX-tdx"/>
+                            <constraint firstItem="MXd-ng-05T" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fqt-Su-qII"/>
+                            <constraint firstItem="MXd-ng-05T" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="jkk-56-jas"/>
+                            <constraint firstItem="MXd-ng-05T" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="85" id="qhA-kh-KdV"/>
+                            <constraint firstItem="MXd-ng-05T" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="uIr-Xs-NCe"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MXd-ng-05T" secondAttribute="bottom" constant="209" id="vwR-JH-xvi"/>
+                            <constraint firstAttribute="trailing" secondItem="MXd-ng-05T" secondAttribute="trailing" id="wHa-yt-tBT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="J2F-vV-GxB"/>
+                                <exclude reference="S3Y-Km-dZc"/>
+                                <exclude reference="WIF-5w-5qo"/>
+                                <exclude reference="erN-UX-tdx"/>
+                                <exclude reference="qhA-kh-KdV"/>
+                                <exclude reference="KfM-FW-Oy4"/>
+                                <exclude reference="vwR-JH-xvi"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="J2F-vV-GxB"/>
+                                <include reference="S3Y-Km-dZc"/>
+                                <include reference="WIF-5w-5qo"/>
+                                <include reference="vwR-JH-xvi"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="331.5"/>
+        </scene>
+    </scenes>
+</document>
